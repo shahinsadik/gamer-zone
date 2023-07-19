@@ -108,15 +108,58 @@ a{
     background: #4EC5F7;
 }
 .banner-contant{
-    /* background-image: url("images/Group\ 14.png");
-    width: 100%; */
+    background-image: url("images/Group\ 14.png");
+    width: 100%;
+    background-repeat: no-repeat;
 }
-/* .banner-img{
+.banner-img{
     width: 90%;
-} */
-/* gamer section  */
+} 
+
+ /* gamer section  */
 .gamer-container{
     display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-title{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-desc{
+    color: #534C64;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+.gamer-btn{
+    text-align: right;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    border: 0;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.unlish-title, .unlish-desc{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.unlish-desc{
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 
