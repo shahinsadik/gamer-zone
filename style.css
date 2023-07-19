@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Roboto:wght@500&family=Work+Sans:wght@400;500;600;700&display=swap');
+    
+    font-family: 'Work Sans', sans-serif;
+
+}
+.manu-logo{
+    display: flex;
+    padding: 50px;
+}
+.logo{
+    width: 100%;
+}
+.menu-title{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+span{
+    color: #FF42A5;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.manu-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.manu-follow{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.fa-youtube{
+    color: red;
+}
+.fa-tiktok{
+    color:  #ff0050;
+}
+
+/* banner section  */
+.banner-container{
+    display: flex;
+    /* align-items: center;
+    justify-content: space-around; */
+}
+.banner-text{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-title{
+    text-align: center;
+    font-size: 5.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.banner-desc{
+    align-items: center;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner-btn-1, .banner-btn-2{
+    color: #FFF;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    border: none;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.banner-btn-2{
+    background: #4EC5F7;
+}
+.banner-contant{
+    /* background-image: url("images/Group\ 14.png");
+    width: 100%; */
+}
+/* .banner-img{
+    width: 90%;
+} */
+/* gamer section  */
+.gamer-container{
+    display: flex;
+}
+
+
+
+
+/* responsive mobile  */
+@media screen and (max-width:576px) {
+    .nav-container{
+        /* navbar section  */
+        flex-direction: column;
+    }
+    .manu-list{
+        flex-direction: column;
+    }
+    .logo{
+        width: 50%;
+    }
+    /* banner section  */
+    .banner-container{
+        flex-direction: column;
+    }
+    
+    .banner-img{
+        width: 90%;
+    }
+    /* gamer section  */
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-img{
+        width: 90%;
+    }
+}
