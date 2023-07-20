@@ -355,6 +355,7 @@ li{
     font-weight: 600;
 }
 .footer-icon{
+    font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
