@@ -82,7 +82,7 @@ a{
 }
 .banner-title{
     text-align: center;
-    font-size: 5.8rem;
+    font-size: 4.8rem;
     font-style: normal;
     font-weight: 800;
     text-transform: uppercase;
@@ -130,7 +130,7 @@ a{
 .gamer-container{
     display: flex;
     gap: 50px;
-    padding: 20px 120px 20px 120px;
+    padding: 0px 120px 20px 120px;
     align-items: center;
     text-align: right;
     justify-content: space-between;
@@ -221,7 +221,7 @@ a{
     align-items: center;
     gap: 20%;
     justify-content: space-between;
-    padding: 20px 120px 20px 120Px;
+    padding: 60px 120px 100px 120Px;
 }
 
 .play-title-text{
@@ -229,51 +229,73 @@ a{
     font-size: 2.8rem;
     font-weight: 700;
 }
+.gamer-desc{
+    padding: 10px;
+}
 .play-img{
-    width: 90%;
+    width: 100%;
+    position: relative;
 }
 
 .play-bandage{
-    padding: 20px;
+    padding: 0px;
     border-radius: 8px;
     align-items: center;
     width: 40%;
+    position: absolute;
+    bottom: -40px;
+    left: -80px ;
+}
+.play-img-container{
     position: relative;
-    bottom: 100px;
-   
+}
+/* play container 2 */
+.play-container-2{
+    flex-direction: row-reverse;
+}
+.play-title-text-2, .gamer-desc-2{
+    text-align: left;
+}
+.play-bandage-2{
+    padding: 0px;
+    border-radius: 8px;
+    align-items: center;
+    width: 40%;
+    position: absolute;
+    bottom: -40px;
+    right: -80px ;
 }
 /* careers-section  */
 .careers-container{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     justify-content: space-between;
     padding-left: 120px;
     background-color: #FF42A5;
 }
 .careers-title{
     color: #FFF;
-    padding-bottom: 10px;
-    font-size: 3rem;
+    padding-bottom: 20px;
+    font-size: 4rem;
     font-weight: 700;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .careers-desc{
     color: #FFF;
-    font-size: .8rem;
+    font-size: 1.2rem;
     font-weight: 400;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 .careers-manu-1, .careers-manu-2{
     color: #FFF;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
-    padding-bottom: 20px;
     line-height: 1.8rem;
 }
 
 .careers-img img{
-    width: 500px;
+    height: 100%;
 }
 .careers-menu{
     display: flex;
@@ -288,6 +310,7 @@ li{
 }
 .careers-manu-2{
     text-align: right;
+    padding-bottom: 50px;
 }
 .careers-btn{
     background: #FFF;
@@ -400,7 +423,7 @@ li{
         padding: 10px;
     }
     .banner-img{
-        width: 100%;
+        width: 90%;
     }
     /* gamer section  */
     .gamer-container{
@@ -424,6 +447,8 @@ li{
     .game-video-image{
         padding-bottom: 30px;
     }
+
+
     /* play ins section  */
     .play-container{
         flex-direction: column;
@@ -436,18 +461,54 @@ li{
     .gamer-desc{
         text-align: center;
         padding: 10px;
+        margin-bottom:20px;
     }
-    
+    .play-img{
+        width: 90%;
+    }
+    .play-img-container{
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+    /* play games 2 */
+    .play-img{
+        width: 80%;
+    }
+    .play-container-2{
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .play-bandage-2{
+        border-radius: 8px;
+        align-items: left;
+        width: 40%;
+        right: 30px;
+        bottom: px;
+    }
+
 /* careers section  */
 .careers-container{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 5%;
 }
+.careers-img{
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
 .careers-manu-1, .careers-manu-2{
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: 600;
+
+}
+.careers-desc{
+    font-size: .8rem;
+    padding: 10px;
+
 }
 
 /* game list section  */
