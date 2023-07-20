@@ -279,13 +279,13 @@ a{
     padding-bottom: 20px;
     font-size: 4rem;
     font-weight: 700;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .careers-desc{
     color: #FFF;
     font-size: 1.2rem;
     font-weight: 400;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .careers-manu-1, .careers-manu-2{
     color: #FFF;
@@ -295,7 +295,7 @@ a{
 }
 
 .careers-img img{
-    height: 100%;
+    height: 500px;
 }
 .careers-menu{
     display: flex;
@@ -305,12 +305,9 @@ a{
 li{
     list-style: none;
 }
-.careers-list li{
-    
-}
 .careers-manu-2{
     text-align: right;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .careers-btn{
     background: #FFF;
