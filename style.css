@@ -285,7 +285,7 @@ a{
     color: #FFF;
     font-size: 1.2rem;
     font-weight: 400;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 .careers-manu-1, .careers-manu-2{
     color: #FFF;
@@ -295,7 +295,7 @@ a{
 }
 
 .careers-img img{
-    height: 500px;
+    height: 100%;
 }
 .careers-menu{
     display: flex;
@@ -307,7 +307,7 @@ li{
 }
 .careers-manu-2{
     text-align: right;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 .careers-btn{
     background: #FFF;
@@ -492,6 +492,7 @@ li{
     padding: 5%;
 }
 .careers-img{
+    padding-bottom: 50px;
     align-items: center;
     justify-content: center;
     height: 300px;
