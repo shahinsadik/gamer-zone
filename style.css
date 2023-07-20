@@ -212,41 +212,66 @@ a{
 .card-img{
     width: 100%;
 }
-/* play instant section  */
-.play-container{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    justify-content: space-evenly;
-    padding: 20px 120px 20px 120Px;
-}
-.play-img{
-    width: 100%;
+.game-video-image:hover{
     
 }
+/* play instant section  */
+.play-container{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    justify-content: space-between;
+    padding: 20px 120px 20px 120Px;
+}
+
 .play-title-text{
     text-align: right;
-    padding: 20px;
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 700;
 }
-.play-img img{
+.play-img{
     width: 90%;
-    margin-left: 20%;
-    position: relative;
 }
-play-bandage img{
-    width: 50%;
-}
+
 .play-bandage{
+    padding: 20px;
     border-radius: 8px;
-    align-items: center-;
-    width: 70%;
-    padding: 40px;
+    align-items: center;
+    width: 40%;
     position: relative;
-    bottom: 200px;
-    right: 100px;
+    bottom: 100px;
+   
 }
+/* careers-section  */
+.careers-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    /* padding: 20px 120px 20px 120Px; */
+    padding-left: 120px;
+    background-color: #FF42A5;
+}
+.careers-img img{
+    width: 500px;
+}
+.careers-menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+li{
+    list-style: none;
+}
+.careers-list li{
+    
+}
+.careers-manu-2{
+    text-align: right;
+}
+
+ 
 
 
 
@@ -305,8 +330,13 @@ play-bandage img{
     border-radius: 8px;
     align-items: center-;
     width: 70%;
-    padding: 40px;
     position: relative;
-    bottom: 200px;
-    right: -40%;
+    bottom: 100px;
+    right: 50px;
+}
+.careers-container{
+    flex-direction: column;
+    
+}
+
 }
