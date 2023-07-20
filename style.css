@@ -98,7 +98,7 @@ a{
     font-size: 1rem;
     font-weight: 500;
 }
-.banner-btn-1, .banner-btn-2{
+.banner-btn-1, .banner-btn-2, .careers-btn{
     margin-top: 10px;
     color: #FFF;
     font-size: 1.1rem;
@@ -217,7 +217,6 @@ a{
 }
 /* play instant section  */
 .play-container{
-    border: 2px solid red;
     display: flex;
     align-items: center;
     gap: 20%;
@@ -249,10 +248,30 @@ a{
     align-items: center;
     gap: 20px;
     justify-content: space-between;
-    /* padding: 20px 120px 20px 120Px; */
     padding-left: 120px;
     background-color: #FF42A5;
 }
+.careers-title{
+    color: #FFF;
+    padding-bottom: 10px;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.careers-desc{
+    color: #FFF;
+    font-size: .8rem;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.careers-manu-1, .careers-manu-2{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+    line-height: 1.8rem;
+}
+
 .careers-img img{
     width: 500px;
 }
@@ -270,8 +289,94 @@ li{
 .careers-manu-2{
     text-align: right;
 }
+.careers-btn{
+    background: #FFF;
+    color: #F948B2;
+}
+/* game list section  */
+/* .game-list-container,{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 20px 120px 20px 120Px;
+    display: flex;
+} */
+.game-list-1, .game-list-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.game-list-1{
+    padding: 70px 120px 70px 120Px;
+}
 
- 
+.game-list{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    gap: 10px;
+    border: 0;
+}
+.game-list-img{
+    width: 30px;
+}
+.game-list-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.game-list:hover{
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+}
+/* footer section  */
+.footer-container{
+    padding: 80px;
+    background: #0B0223;
+}
+.footer-logo{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-title{
+    color: white;
+}
+.footer-list{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.footer-privacy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: .8rem;
+    font-weight: 500;
+}
+.copyright-text{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: .8rem;
+    font-weight: 500;
+}
 
 
 
@@ -293,7 +398,6 @@ li{
         flex-direction: column;
         padding: 10px;
     }
-    
     .banner-img{
         width: 100%;
     }
@@ -311,7 +415,7 @@ li{
         padding: 10px;
     }
     .game-video-desc{
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
     .game-video-image{
         width: 90%;
@@ -319,24 +423,43 @@ li{
     .game-video-image{
         padding-bottom: 30px;
     }
+    /* play ins section  */
     .play-container{
         flex-direction: column;
+        padding: 10px;
     }
-
-.play-bandage img{
-    width: 50%;
-}
-.play-bandage{
-    border-radius: 8px;
-    align-items: center-;
-    width: 70%;
-    position: relative;
-    bottom: 100px;
-    right: 50px;
-}
+    .play-title-text{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .gamer-desc{
+        text-align: center;
+        padding: 10px;
+    }
+    
+/* careers section  */
 .careers-container{
     flex-direction: column;
-    
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.careers-manu-1, .careers-manu-2{
+    font-size: .7rem;
+    font-weight: 600;
 }
 
+/* game list section  */
+.game-list-1, .game-list-2{
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    padding: 10px;
+}
+/* footer section  */
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-size: .6rem;
+}
 }
